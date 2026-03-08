@@ -21,5 +21,12 @@ public class OOPSBannerUC3 {
                 "*     *", "*     *", "*      ", "*     *"));
         System.out.println(String.join(" ",
                 " ***** ", " ***** ", "*      ", " ***** "));
-    }
+			
+	}
+ 
+git check-b feature/UCI:printoops
+git add
+gitpuch originfeature/UC1:printopps
+
 }
+

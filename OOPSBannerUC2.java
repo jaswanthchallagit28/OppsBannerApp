@@ -2,35 +2,39 @@ public class OOPSBannerUC2 {
 
     public static void main(String[] args) {
 
-        // STEP 1 — Create String Array for 7 lines
-        String[] banner = new String[7];
+        // Line 1
+        System.out.println(
+                "  **  " + "  **  " + " ***" + "  *** "
+        );
 
-        // STEP 2 — Build each line using String.join()
+        // Line 2
+        System.out.println(
+                " *     * " + " *     * " + " *       " + " *      *"
+        );
 
-        banner[0] = String.join("",
-                " ******** ", " ******** ", " ******** ", " ******** ");
+        // Line 3
+        System.out.println(
+                " *     * " + " *     * " + " *       " + " *       "
+        );
 
-        banner[1] = String.join("",
-                " *      * ", " *      * ", " *      * ", " *        ");
+        // Line 4
+        System.out.println(
+                " *     * " + " *     * " + " **  " + "  ** "
+        );
 
-        banner[2] = String.join("",
-                " *      * ", " *      * ", " *      * ", " *        ");
+        // Line 5
+        System.out.println(
+                " *     * " + " *     * " + " *       " + "       * "
+        );
 
-        banner[3] = String.join("",
-                " *      * ", " ******** ", " ******** ", " ******** ");
+        // Line 6
+        System.out.println(
+                " *     * " + " *     * " + " *       " + " *     * "
+        );
 
-        banner[4] = String.join("",
-                " *      * ", " *        ", " *        ", "        * ");
-
-        banner[5] = String.join("",
-                " *      * ", " *        ", " *        ", "        * ");
-
-        banner[6] = String.join("",
-                " ******** ", " ******** ", " *        ", " ******** ");
-
-        // STEP 3 — Enhanced for loop to print
-        for (String line : banner) {
-            System.out.println(line);
-        }
+        // Line 7
+        System.out.println(
+                "  **  " + "  **  " + " *       " + "  ***  "
+        );
     }
 }
